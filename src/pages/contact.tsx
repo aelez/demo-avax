@@ -57,7 +57,7 @@ export const NotFound: FunctionComponent = () => {
           <div className="lg:pr-8">
             <div className="max-w-md mx-auto sm:max-w-lg lg:mx-0">
               <h2 className="text-3xl leading-9 font-extrabold tracking-tight sm:text-4xl sm:leading-10">
-                Contact Me
+                Contact Me Avax rent a car
               </h2>
               <form
                 name={FORM_NAME}
