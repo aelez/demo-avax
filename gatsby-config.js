@@ -1,6 +1,6 @@
-const siteName = "Avax rent a car";
+const siteName = "Sample Blog";
 const siteShortName = "Avax rent a car";
-const siteUrl = "https://demo.avaxrent.com";
+const siteUrl = "https://geek.sg/";
 const siteDescription = "Test Avax rent a car";
 const siteKeyword = "";
 const siteLogo = "logo.png";
