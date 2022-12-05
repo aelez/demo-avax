@@ -1,72 +1,111 @@
+const siteName = "Sample Blog";
+const siteShortName = "Avax rent a car";
+const siteUrl = "https://geek.sg/";
+const siteDescription = "Test Avax rent a car";
+const siteKeyword = "";
+const siteLogo = "logo.png";
+const siteLogoFolder = `static/${siteLogo}`;
+
 module.exports = {
   siteMetadata: {
-    title: 'Avax Rent-a-Car',
-    siteUrl: 'https://avaxrent.com',
+    title: siteName,
+    siteUrl,
+    description: siteDescription,
   },
   plugins: [
-    'gatsby-plugin-react-helmet',
-    //'gatsby-plugin-offline',
-    'gatsby-plugin-react-next',
-    'gatsby-plugin-sass',
+    "gatsby-plugin-sitemap",
+    "gatsby-plugin-typescript",
+    "gatsby-plugin-react-helmet",
+    "gatsby-plugin-styled-components",
+    "gatsby-plugin-robots-txt",
     {
-      resolve: 'gatsby-source-mom-locations',
+      // keep as first gatsby-source-filesystem plugin for gatsby image support
+      resolve: "gatsby-source-filesystem",
       options: {
-        path: `${__dirname}/src/data/locationDescriptions`,
+        path: `${__dirname}/content`,
+        name: "contents",
       },
     },
     {
-      resolve: 'gatsby-source-locale',
+      resolve: "gatsby-source-filesystem",
       options: {
-        pagesPath: `${__dirname}/src/localization/pages/`,
-        stringsPath: `${__dirname}/src/localization/strings/`,
+        name: "images",
+        path: `${__dirname}/static`,
       },
     },
     {
-      resolve: 'gatsby-source-filesystem',
+      resolve: `gatsby-transformer-remark`,
       options: {
-        name: 'img',
-        path: `${__dirname}/src/images/`,
+        plugins: [
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              maxWidth: 2048,
+              linkImagesToOriginal: true,
+            },
+          },
+          {
+            resolve: `gatsby-remark-prismjs`,
+          },
+          {
+            resolve: `gatsby-remark-copy-linked-files`,
+          },
+        ],
       },
     },
-    'gatsby-transformer-sharp',
-    'gatsby-plugin-sharp',
+    "gatsby-transformer-sharp",
+    "gatsby-plugin-sharp",
     {
-      resolve: 'gatsby-plugin-netlify',
+      resolve: "gatsby-plugin-manifest",
       options: {
-        headers: {
-          // all statics but sw.js
-          // '/sw.js': ['Cache-Control: public,max-age=0, must-revalidate'],
-          // '/*.{js,jpg,png,ico,gif,css,woff,woff2}': ['Cache-Control: public, max-age=31536000'],
-        }, // option to add more headers. `Link` headers are transformed by the below criteria
-        // allPageHeaders: [], // option to add headers for all pages. `Link` headers are transformed by the below criteria
-        // mergeSecurityHeaders: true, // boolean to turn off the default security headers
-        // mergeLinkHeaders: false, // boolean to turn off the default gatsby js headers (disabled by default, until gzip is fixed for server push)
-        mergeCachingHeaders: true, // boolean to turn off the default caching headers
-        // transformHeaders: (headers, path) => headers, // optional transform for manipulating headers under each path (e.g.sorting), etc.
+        name: siteName,
+        short_name: siteShortName,
+        description: siteDescription,
+        background_color: `#ffffff`,
+        theme_color: `#ffffff`,
+        display: `standalone`,
+        lang: "en",
+        start_url: "/",
+        include_favicon: true,
+        icon: siteLogoFolder, // This path is relative to the root of the site.
       },
     },
     {
-      resolve: 'gatsby-plugin-manifest',
+      resolve: "gatsby-plugin-seo",
       options: {
-        name: 'Avax Rent-a-Car',
-        short_name: 'Avax',
-        start_url: '/',
-        background_color: '#ffffff',
-        theme_color: '#E83542',
-        display: 'minimal-ui',
-        icon: 'src/manifest/icon.png',
+        siteName,
+        defaultSiteImage: siteLogo,
+        siteUrl,
+        keywords: siteKeyword,
+        globalSchema: `{
+            "@type": "WebSite",
+            "@id": "${siteUrl}",
+            "url": "${siteUrl}",
+            "name": "${siteName}",
+            "publisher": {
+              "@id": "${siteUrl}"
+            },
+            "image": {
+              "@type": "ImageObject",
+              "@id": "${siteUrl}${siteLogo}",
+              "url": "${siteUrl}${siteLogo}",
+              "caption": siteName
+            }
+          }`,
       },
     },
     {
-      resolve: 'gatsby-plugin-google-analytics',
+      resolve: `gatsby-plugin-react-helmet-canonical-urls`,
       options: {
-        trackingId: 'UA-51015107-1',
-        head: false,
-        anonymize: true,
-        respectDNT: true,
+        siteUrl,
+        noTrailingSlash: true,
       },
     },
-    'gatsby-plugin-no-sourcemaps',
-    'gatsby-plugin-sitemap',
+    {
+      resolve: "gatsby-plugin-netlify-cms",
+    },
+    {
+      resolve: `gatsby-plugin-slug`,
+    },
   ],
 };
