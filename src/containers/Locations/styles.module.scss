@@ -1,0 +1,136 @@
+@import '../../theme/breakpoints.scss';
+@import '../../theme/colors.scss';
+@import '../../theme/snippets.scss';
+@import '../../theme/spacing.scss';
+
+.section {
+  display: flex;
+  flex-flow: column nowrap;
+
+  max-width: 72rem;
+  margin: 0 auto;
+  padding: $spc-s $spc-xl $spc-xxl;
+
+  justify-content: center;
+  align-items: stretch;
+
+  @media screen and (min-width: $smallDesktop) {
+    padding: inherit 0;
+  }
+}
+
+.title {
+  @extend %txt-bold;
+  text-align: center;
+}
+
+.subtitle {
+  @extend %txt-italic;
+
+  color: $text-dark;
+  text-align: center;
+
+  @media screen and (min-width: $smallDesktop) {
+    margin-bottom: $spc-l;
+  }
+}
+
+.posts {
+  display: flex;
+  flex-flow: column nowrap;
+
+  justify-content: center;
+  align-items: center;
+
+  @media screen and (min-width: $smallDesktop) {
+    flex-flow: row wrap;
+  }
+}
+
+.card {
+  height: 25rem;
+  margin: $spc-m 0;
+}
+
+.name {
+  position: absolute;
+  bottom: 1.25rem;
+  left: 1.875rem;
+
+  color: $white;
+  text-transform: uppercase;
+}
+
+.content {
+  display: flex;
+  flex-flow: column;
+
+  height: 100%;
+  padding: 0 $spc-xl;
+  text-align: center;
+
+  justify-content: center;
+  align-items: center;
+  color: $white;
+
+  z-index: 20;
+}
+
+.button {
+  margin: $spc-s;
+  padding: $spc-s $spc-l;
+
+  border: none;
+  border-radius: 3px;
+
+  color: $white;
+  background-color: $btn-primary;
+  transition: all 0.2s ease-in-out;
+
+  cursor: pointer;
+
+  &:hover {
+    text-decoration: none;
+    color: inherit;
+    background-color: $btn-primary-hovered;
+  }
+}
+
+.cityLabel {
+  @extend %txt-bold;
+}
+.image::after {
+  content: '';
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background: linear-gradient(180deg, transparent 55%, $overlay-dark 90%);
+  z-index: 15;
+  transform: translateY(1px);
+}
+
+.open {
+  .content {
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    padding: 0 $spc-xl;
+
+    position: absolute;
+    bottom: 2.25rem;
+    left: 1rem;
+
+    justify-content: flex-end;
+    align-items: flex-start;
+    text-align: center;
+    color: $white;
+  }
+
+  .button {
+    margin-left: 0;
+    margin-bottom: 0;
+  }
+}

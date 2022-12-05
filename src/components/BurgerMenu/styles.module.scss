@@ -1,0 +1,117 @@
+@import '../../theme/colors.scss';
+@import '../../theme/breakpoints.scss';
+
+// Height of the single bar in the burger icon.
+// Same height is used for spacing between the bars.
+$burgerBarHeight: 0.3375rem;
+$menuOffsetTop: 6rem;
+
+// Quick fixes till we get autoprefixer to work.
+@mixin rotate-bar($angle) {
+  -webkit-transform: rotate($angle);
+  -moz-transform: rotate($angle);
+  -o-transform: rotate($angle);
+  transform: rotate($angle);
+}
+
+@mixin menu-transition($length) {
+  -webkit-transition: $length ease-in-out;
+  -moz-transition: $length ease-in-out;
+  -o-transition: $length ease-in-out;
+  transition: $length ease-in-out;
+}
+
+.menu:global(.bm-menu-wrap) {
+  width: 100vw !important;
+
+  @media screen and (min-width: $smallDesktop) {
+    display: none;
+  }
+}
+
+.list {
+  display: flex;
+  flex-flow: column nowrap;
+
+  width: 100%;
+  margin: 2rem 0;
+
+  overflow-y: scroll;
+  @media screen and (min-width: $smallDesktop) {
+    align-items: center;
+  }
+}
+
+.menu:global(.bm-menu-wrap) {
+  top: $menuOffsetTop;
+  height: calc(100% - #{$menuOffsetTop}) !important;
+  overflow-y: scroll;
+}
+
+.menu :global(.bm-menu) {
+  background: $bg-dark;
+  font-size: 1.25rem;
+}
+
+.button {
+  width: 2.5rem;
+  height: 2.8125rem;
+
+  position: absolute;
+  top: 2rem;
+
+  @include menu-transition(0.5s);
+  @include rotate-bar (0deg);
+
+  @media screen and (min-width: $smallDesktop) {
+    display: none;
+  }
+}
+
+.bar {
+  display: block;
+  position: absolute;
+  height: $burgerBarHeight;
+  width: 100%;
+  background: rgb(35, 35, 35);
+  border-radius: 9px;
+
+  // Keeps bar position correct while transitioning.
+  left: 0;
+
+  @include menu-transition(0.25s);
+  @include rotate-bar(0deg);
+}
+
+.bar:nth-child(1) {
+  top: 0;
+
+  .open & {
+    top: 2 * $burgerBarHeight;
+    width: 0%;
+    left: 50%;
+  }
+}
+
+.bar:nth-child(4) {
+  top: 4 * $burgerBarHeight;
+
+  .open & {
+    top: 2 * $burgerBarHeight;
+    width: 0%;
+    left: 50%;
+  }
+}
+
+.bar:nth-child(2),
+.bar:nth-child(3) {
+  top: 2 * $burgerBarHeight;
+}
+
+.open .bar:nth-child(2) {
+  @include rotate-bar(45deg);
+}
+
+.open .bar:nth-child(3) {
+  @include rotate-bar(-45deg);
+}

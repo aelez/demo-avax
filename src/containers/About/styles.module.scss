@@ -1,0 +1,64 @@
+@import '../../theme/breakpoints.scss';
+@import '../../theme/spacing.scss';
+
+.about {
+  display: flex;
+  flex-flow: column nowrap;
+  margin: $spc-xl $spc-xxl;
+  padding-bottom: $spc-xl;
+
+  justify-content: center;
+  align-items: center;
+
+  @media screen and (min-width: $tablet) {
+    flex-flow: row nowrap;
+    align-items: flex-start;
+    margin: $spc-xxxl 0 $spc-xxxl;
+    padding: 0;
+  }
+}
+
+.content,
+.carousel {
+  display: flex;
+  justify-content: center;
+
+  // Whole about section content
+  // takes max-width: 2 * 35rem + margins = 72rem
+  max-width: 35rem;
+  width: 100%;
+
+  @media screen and (min-width: $tablet) {
+    width: 50%;
+  }
+}
+
+.content {
+  flex-flow: column nowrap;
+  align-items: flex-start;
+  max-width: 30rem;
+
+  @media screen and (min-width: $tablet) {
+    padding-right: $spc-xxl;
+  }
+}
+
+.carousel {
+  margin-top: 2rem;
+  align-items: center;
+
+  @media screen and (min-width: $tablet) {
+    margin: 0;
+  }
+}
+
+.imageWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  width: 100%;
+  max-width: 35rem;
+}

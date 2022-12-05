@@ -1,0 +1,58 @@
+@import '../../theme/breakpoints.scss';
+@import '../../theme/colors.scss';
+@import '../../theme/snippets.scss';
+@import '../../theme/spacing.scss';
+
+.section {
+  display: flex;
+  flex-flow: column nowrap;
+
+  max-width: 72rem;
+  margin: 0 auto;
+  padding: $spc-s $spc-xl $spc-xxl;
+
+  justify-content: center;
+  align-items: center;
+
+  @media screen and (min-width: $smallDesktop) {
+    padding: inherit 0 $spc-xxxl;
+  }
+}
+
+.title {
+  @extend %txt-bold;
+  text-align: center;
+}
+
+.subtitle {
+  @extend %txt-italic;
+
+  color: $text-dark;
+  text-align: center;
+
+  @media screen and (min-width: $smallDesktop) {
+    margin-bottom: $spc-xl;
+  }
+}
+
+.posts {
+  display: flex;
+  flex-flow: column nowrap;
+
+  justify-content: center;
+  align-items: center;
+
+  @media screen and (min-width: $smallDesktop) {
+    flex-flow: row nowrap;
+    align-items: stretch;
+  }
+}
+
+.card {
+  margin-top: $spc-l;
+  flex: 1;
+
+  @media screen and (min-width: $smallDesktop) {
+    margin: 0;
+  }
+}

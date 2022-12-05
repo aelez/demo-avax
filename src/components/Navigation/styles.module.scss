@@ -1,0 +1,176 @@
+@import '../../theme/colors.scss';
+@import '../../theme/breakpoints.scss';
+@import '../../theme/snippets.scss';
+
+.navigation {
+  display: flex;
+  flex-basis: 48.5rem;
+}
+
+.desktop {
+  display: none;
+
+  @media screen and (min-width: $smallDesktop) {
+    display: flex;
+
+    width: 100%;
+
+    justify-content: space-around;
+    align-content: center;
+  }
+}
+
+.popupIcon {
+  fill: $white;
+  transform: rotate(90deg);
+
+  &.open {
+    transform: rotate(270deg);
+  }
+
+  // If inside any popup
+  .popup & {
+    @media screen and (min-width: $smallDesktop) {
+      transform: rotate(0deg);
+    }
+  }
+
+  @media screen and (min-width: $smallDesktop) {
+    fill: $text-dark;
+  }
+}
+
+.listItem {
+  // Inside first popup
+  .popup & {
+    @media screen and (min-width: $smallDesktop) {
+      &:hover,
+      .link:focus & {
+        background: $text-light;
+      }
+    }
+  }
+
+  @media screen and (min-width: $smallDesktop) {
+    display: flex;
+    flex-flow: column;
+  }
+}
+
+.link {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 1rem;
+  color: $text-light;
+  white-space: nowrap;
+
+  &:hover,
+  &:focus {
+    background: $bg-dark-hover;
+    text-decoration: none;
+    color: $text-light;
+
+    // Override popup trigger btn opacity
+    opacity: 1;
+  }
+
+  @media screen and (min-width: $smallDesktop) {
+    color: $text-dark;
+    cursor: pointer;
+
+    &:hover,
+    &:focus {
+      background: $white;
+      color: $text-dark;
+    }
+  }
+
+  // Inside first popup
+  .popup & {
+    padding: 1rem 1rem 1rem 2rem;
+
+    @media screen and (min-width: $smallDesktop) {
+      padding: 1rem;
+    }
+
+    @media screen and (min-width: $smallDesktop) {
+      &:hover,
+      &:focus {
+        background: $text-light;
+        color: $text-dark;
+      }
+    }
+  }
+
+  // Inside second nested popup
+  .popup .popup & {
+    padding: 1rem 3rem;
+    background: $bg-darker;
+
+    &:hover,
+    &:focus {
+      background: $bg-darker-hover;
+    }
+
+    @media screen and (min-width: $smallDesktop) {
+      padding: 1rem;
+      background: $white;
+
+      &:hover,
+      &:focus {
+        background: $text-light;
+        color: $text-dark;
+      }
+    }
+  }
+}
+
+.popup {
+  position: relative;
+  min-width: 8.5rem;
+  background: $bg-dark;
+
+  @media screen and (min-width: $smallDesktop) {
+    // header height + header padding
+    top: 4.75rem;
+    position: absolute;
+    border-left: 3px solid $text-light;
+    background: $white;
+  }
+
+  // Styling of popup inside parent popup
+  .popupWrapper {
+    width: 100%;
+
+    .popupWrapper {
+      background: $bg-darker;
+    }
+  }
+
+  .popup {
+    margin-bottom: 0;
+
+    @media screen and (min-width: $smallDesktop) {
+      background: inherit;
+      left: 100%;
+      top: 0;
+      border-left: 3px solid $text-light;
+    }
+  }
+}
+
+.location {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.locationIcon {
+  margin-right: 0.5rem;
+  fill: $text-light;
+
+  @media screen and (min-width: $smallDesktop) {
+    fill: $text-dark;
+  }
+}

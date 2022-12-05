@@ -1,0 +1,47 @@
+@import '../../theme/breakpoints.scss';
+@import '../../theme/spacing.scss';
+@import '../../theme/colors.scss';
+
+.section {
+  padding-left: $spc-m;
+  padding-right: $spc-m;
+  color: $white;
+  fill: $white;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(http://res.cloudinary.com/avax/image/upload/c_lfill,g_south,h_260,w_480/v1521406219/avax-benefits.jpg);
+
+  @media screen and (min-width: $largerThanPhone) {
+    background-image: url(http://res.cloudinary.com/avax/image/upload/c_lfill,g_south,h_380,w_768/v1521406219/avax-benefits.jpg);
+  }
+
+  @media screen and (min-width: $largerThanTablet) {
+    background-image: url(http://res.cloudinary.com/avax/image/upload/c_lfill,g_south,h_460,w_920/v1521406219/avax-benefits.jpg);
+  }
+
+  li {
+    list-style: none;
+    margin: $spc-m 0;
+  }
+
+  h6 {
+    display: inline-block;
+    margin-left: $spc-s;
+  }
+}
+
+.cols {
+  -moz-columns: 1;
+  -webkit-columns: 1;
+  columns: 1;
+  -moz-column-gap: 2em;
+  -webkit-column-gap: 2em;
+  column-gap: 2em;
+
+  @media screen and (min-width: $tablet) {
+    -moz-columns: 2;
+    -webkit-columns: 2;
+    columns: 2;
+  }
+}
