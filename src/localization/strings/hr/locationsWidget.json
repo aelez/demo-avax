@@ -1,0 +1,47 @@
+{
+  "title": "Najam vozila u Hrvatskoj",
+  "subtitle": "Nudimo vam preuzimanje vozila u svim vecim zracnim lukama u Hrvatskoj te ostalih 40tak lokacija u Hrvatskoj.",
+  "items": [
+    {
+      "name": "Dubrovnik",
+      "title": "Dubrovnik Hrvatska",
+      "text": "Nudimo usluge najma vozila u Dubrovniku, naš ured se nalazi u Zracnoj luci i u gradu Dubrovniku",
+      "image": "dubrovnik",
+      "width": 4,
+      "path": "/hr/locations/dubrovnik-downtown"
+    },
+    {
+      "name": "Zadar",
+      "title": "Zadar Hrvatska",
+      "text": "Iznajmite vozilo u centru Zadra ili u Zracnoj luci, nudimo povoljne cijene i nova vozila.",
+      "image": "zadar",
+      "width": 4,
+      "path": "/hr/locations/zadar-center"
+    },
+    {
+      "name": "Sibenik",
+      "title": "Sibenik Hrvatska",
+      "text": "Nasa lokacija se nalazi u centru Sibenika, kod Autobusnog kolodvora. Nudimo uslugu dostave u Hotele Solaris i Hotel D-Resort.",
+      "image": "sibenik",
+      "width": 4,
+      "path": "/hr/locations/sibenik-center"
+    },
+    {
+      "name": "Split",
+      "title": "Split Hrvatska",
+      "text": "Najpovoljnije cijene najama vozila u Splitu. Naš ured se nalazi na rivi, nova Turisticka Palaca. Nudimo usluge najama vozila i na Splitskom aerodromu.",
+      "image": "split",
+      "width": 8,
+      "open": true,
+      "path": "/hr/locations/split-center"
+    },
+    {
+      "name": "Zagreb",
+      "title": "Zagreb Hrvatska",
+      "text": "Rezervirajte svoje vozilo u centru Zagreba ili u Zracnoj Luci Zagreb, nudimo vam najpovoljnije cijene te nova vozila.",
+      "image": "zagreb",
+      "width": 4,
+      "path": "/hr/locations/zagreb-center"
+    }
+  ]
+}

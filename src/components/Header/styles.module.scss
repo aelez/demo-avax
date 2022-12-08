@@ -1,0 +1,24 @@
+@import '../../theme/breakpoints.scss';
+
+$sidePadding: 5%;
+$sidePaddingDesktop: 3rem;
+
+.header {
+  display: flex;
+  height: 6rem;
+  padding-left: $sidePadding;
+  justify-content: space-between;
+  align-items: center;
+
+  @media screen and (min-width: $smallDesktop) {
+    padding: 0 $sidePaddingDesktop;
+  }
+}
+
+.burger {
+  right: $sidePadding;
+}
+
+.logo {
+  width: 12.5rem;
+}

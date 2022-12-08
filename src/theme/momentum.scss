@@ -1,0 +1,194 @@
+@import './breakpoints.scss';
+@import './colors.scss';
+
+$fontRegular: Roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji',
+  'Segoe UI Emoji', 'Segoe UI Symbol';
+$fontCondensed: 'Roboto Condensed', -apple-system, BlinkMacSystemFont, sans-serif;
+
+#momentum {
+  .mom-font-family {
+    font-family: $fontRegular;
+    font-display: optional;
+  }
+  .mom-font-family-condensed {
+    font-family: $fontCondensed;
+    font-display: optional;
+  }
+  .mom-btn-primary-color {
+    background-color: #2377a4;
+    color: $white;
+  }
+  .mom-btn-secondary-color {
+    background-color: $mist;
+    color: $white;
+  }
+  .mom-btn-tertiary-color {
+    background-color: #194673;
+    color: $white;
+  }
+  .mom-btn-close-color {
+    color: #2377a4;
+  }
+  .mom-close-btn-fill {
+    svg {
+      fill: #2377a4;
+    }
+  }
+  .mom-summary-btn-color {
+    background-color: #8b8b8b;
+  }
+  .mom-summary-border {
+    border: 1px solid #8b8b8b;
+  }
+  .mom-field-border {
+    border: 1px solid #e1e1e1;
+  }
+  .mom-total-border {
+    border-bottom: 1px solid #2377a4;
+  }
+
+  .mom-calendar-light {
+    :global(.CalendarDay--hovered-span),
+    :global(.CalendarDay--selected-span) {
+      background: #59c043;
+      border: 1px double #4eb03b;
+      color: white;
+    }
+  }
+
+  .mom-calendar-dark {
+    :global(.CalendarDay--selected-start),
+    :global(.CalendarDay--selected-end),
+    :global(.CalendarDay--after-hovered-start) {
+      background: #4ba838;
+      border: 1px double #429532;
+      color: white;
+    }
+  }
+
+  .mom-calendar-date-input-focus {
+    :global(.DateInput__display-text--focused) {
+      background: #4ba838;
+      border-color: #4ba838;
+    }
+  }
+
+  .mom-info-icon-dark-color {
+    background-color: $mist;
+  }
+  .mom-info-icon-light-color {
+    background-color: #ffffff;
+  }
+  .mom-background-neutral-color {
+    background-color: #ffffff;
+  }
+  .mom-background-secondary-color {
+    background-color: $lightgrey;
+  }
+  .mom-filter-color {
+    @media screen and (min-width: $tablet) {
+      background-color: #e1e1e1;
+    }
+  }
+  .mom-filter-color-active {
+    background-color: #e1e1e1;
+    @media screen and (min-width: $tablet) {
+      background-color: #0ba431;
+    }
+  }
+
+  // Navigation
+  .mom-navigation-color {
+    background-color: #252c41;
+  }
+  .mom-navigation-text-available {
+    color: rgba(255, 255, 255, 0.95);
+  }
+  .mom-navigation-text-unavailable {
+    color: $mist;
+  }
+  .mom-navigation-text-active {
+    text-decoration: underline;
+  }
+
+  //Text
+  .mom-text-primary-color {
+    color: #969696;
+  }
+  .mom-text-white-color {
+    color: white;
+  }
+  .mom-title-color {
+    color: #4a4a4a;
+  }
+  .mom-text-accent-color {
+    color: #2377a4;
+  }
+  .mom-label-text-color {
+    color: #969696;
+  }
+
+  .mom-modal-button-bg {
+   background: #1e8dda;
+  }
+
+  // Selection
+  .mom-dropdown-highlight-color {
+    background: #4ba838;
+  }
+  .mom-checked-checkmark-fill {
+    fill: #4ba838;
+  }
+  .mom-selection-color {
+    background: #0ba431;
+  }
+  .mom-selection-border {
+    border: 1px solid #0ba431;
+  }
+  .mom-selection-icon-fill {
+    fill: #0ba431;
+  }
+  .mom-nav-icon-fill {
+    fill: white;
+  }
+  .mom-tick-icon-fill {
+    fill: rgba(0, 0, 0, 0.87);
+  }
+  .mom-info-icon-fill {
+    fill: #969696;
+  }
+  .mom-search-summary-icon-fill {
+    fill: #2377a4;
+  }
+
+  // Search
+  .mom-search-form {
+    // background: linear-gradient(57deg, darken($accentLight, 10%) 0%, lighten($accentLight, 10%) 100%);
+    background: transparent;
+  }
+
+  .mom-location-dropdown {
+    // placeholder
+  }
+
+  // Modal
+  .mom-modal {
+    background: linear-gradient(57deg, lighten($mist, 20%) 0%, lighten($mist, 65%) 100%);
+    z-index: 99999 !important;
+  }
+
+  // PDP
+  .mom-pdp-price {
+    color: #3076c6;
+  }
+}
+
+.avax-mom-hero {
+  #mom-app {
+    height: auto;
+  }
+
+  #mom-search-fieldset {
+    background: transparent;
+  }
+}

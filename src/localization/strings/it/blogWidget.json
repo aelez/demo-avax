@@ -1,0 +1,24 @@
+{
+  "title": "Latest news",
+  "subtitle": "The latest news, thoughts and updates from the team.",
+  "items": [
+    {
+      "title": "Why book with us",
+      "text":
+        "Unlimited Mileage, 24/7 road support assistance, free cross border, new car models and exceptional service! Free extra driver and maps of the Croatia.",
+      "img": "carRentalPost"
+    },
+    {
+      "title": "Cross-Border free",
+      "text":
+        "The green card serves as a proof of contractual automobile liability insurance and is used when leaving the vehicle abroad. We offer free cross border.",
+      "img": "crossBorderPost"
+    },
+    {
+      "title": "Rental Insurance",
+      "text":
+        "Find more info about our deposit protection and insurance policy. You can select: START (Full excess),MEDIUM (Reduced excess) or PREMIUM (Zero excess).  ",
+      "img": "insurancePost"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "address": "Adresse",
+  "phone": "Telefon",
+  "email": "Email",
+  "openingHours": "Openingstijden",
+  "title": "Mietwagen",
+  "subtitle": "De beste autoverhuur deals",
+  "faqTitle": "Frequently Asked Questions",
+  "faq": [
+    {
+      "question": "Heb ik een creditcard nodig om een auto te huren?",
+      "answer": "Nee, u hoeft niet in het bezit te zijn van een creditcard als u besluit de autoverhuurkosten bij aankomst te betalen. Wij staan het huren van een auto zonder creditcard wel toe met enkele bijzondere omstandigheden voor de Mini, Economy en Intermediate van een kleinere autogroep, afhankelijk van de ophaal- en terugbrenglocatie en de huurperiode. Houd er rekening mee dat als u geen creditcard heeft, u moet kiezen voor PREMIUM verzekering + 40 Eur voor geen creditcard kosten. **Geen creditcardkosten** kunnen worden geselecteerd bij stap 4 van het boekingsproces."
+    },
+    {
+      "question": "Wat als ik mijn reservering moet annuleren?",
+      "answer": "Laat het ons zo snel mogelijk weten als u de reservering wilt annuleren of wijzigen. Wijzig of annuleer uw huidige reservering op elk moment voor de huur. Er worden geen kosten in rekening gebracht voor omboekingen en annuleringen. Email ons op: hi@support.avaxrent.com maak een notitie dat u wilt annuleren zodra wij uw verzoek hebben ontvangen zullen wij u per e-mail op de hoogte stellen van de annulering"
+    },
+   
+    {
+      "question": "Kan ik mijn geld terugkrijgen als ik mijn auto vroeg terugbreng?",
+      "answer": "Helaas kunnen we u niet terugbetalen voor een deel van uw huur dat u niet gebruikt."
+    },
+    {
+      "question": "Hoe oud moet ik zijn, om een auto te huren bij uw autoverhuurbedrijf? ",
+      "answer": "Bevoegde bestuurder moet 22 jaar zijn (Als de klant in de leeftijdscategorie 18 -21 jaar is, geldt een bedrag van 10 € per dag met een maximum van 87,50 € per huurauto + een PREMIUM-verzekering is verplicht)"
+    }
+  ]
+}

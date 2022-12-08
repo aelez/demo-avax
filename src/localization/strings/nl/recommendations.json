@@ -1,0 +1,21 @@
+{
+  "title": "Waarom u voor ons kiest",
+  "subtitle": "Excellentie en de klantservice staat bij ons op de eerste plaats. Alle online prijzen zijn definitief en er zijn geen verborgen kosten",
+  "items": [
+    {
+      "title": "Suzuki Swift",
+      "text": "De Suzuki Swift is gloednieuw model met prettige en stabiele rijeigenschappen en heeft bovendien een gunstig brandstofverbruik",
+      "img": "swift"
+    },
+    {
+      "title": "Suzuki Ignis",
+      "text": "Suzuki Ignis is alles wat u nodig,-stad georiënteerd ontwerp, compact, afmetingen en superieure prestaties op de weg makkelijk te beheren",
+      "img": "ignis"
+    },
+    {
+      "title": "Suzuki S-Cross",
+      "text": "De Suzuki S-Cross is een voordelige en fantastische familieauto met een zeer ruime kofferruimte.",
+      "img": "scross"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+@import '../../theme/breakpoints.scss';
+@import '../../theme/colors.scss';
+@import '../../theme/spacing.scss';
+
+.map {
+  height: 18.75rem;
+}
+
+.content {
+  padding-top: $spc-l;
+}

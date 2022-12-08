@@ -1,0 +1,63 @@
+@import '../../theme/breakpoints.scss';
+@import '../../theme/colors.scss';
+@import '../../theme/snippets.scss';
+
+.containerHeroj {
+  composes: avax-mom-hero from global;
+}
+
+.heroj {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 33rem;
+  @media screen and (min-width: $largerThanPhone) {
+    min-height: 40rem;
+  }
+}
+
+.centerHeroj {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.3);
+  transform: translate3d(0, 0, 0);
+  z-index: 5;
+}
+
+.titleHeroj {
+  width: 100%;
+  padding: 0rem 0.93rem 0rem;
+  color: $white;
+
+  @media screen and (min-width: $largerThanPhone) {
+    padding: 0.25rem calc(50% - 13rem) 0.5rem calc(50% - 13rem);
+  }
+
+  @media screen and (min-width: $largerThanTablet) {
+    padding: 0.25rem calc(50% - 16.67rem) 0.5rem calc(50% - 16.67rem);
+  }
+
+  h1,
+  h4 {
+    @extend %txt-light;
+  }
+}
+
+.typist {
+  @extend %txt-bold;
+  display: block;
+
+  @media screen and (min-width: $largerThanTablet) {
+    display: inline;
+  }
+}

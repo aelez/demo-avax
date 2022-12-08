@@ -1,0 +1,11 @@
+@import '../../theme/snippets.scss';
+@import '../../theme/spacing.scss';
+
+#momentum {
+  padding: $spc-l 0;
+  min-height: 19.75rem;
+
+  .mom-font-family {
+    @extend %main-font;
+  }
+}

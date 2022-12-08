@@ -1,0 +1,31 @@
+{
+  "address": "Address",
+  "phone": "Phone",
+  "email": "Email",
+  "openingHours": "Opening hours",
+  "title": "Rent a Car",
+  "subtitle": "car rental you can trust",
+  "faqTitle": "Frequently Asked Questions",
+  "faq": [
+    {
+      "question": "Do I need a credit card to rent a car?",
+      "answer": "No, There is no need to hold a credit card if you decide to pay the car rental cost upon arrival. We do allow renting a car without credit card with some special circumstances for smaller car group’s Mini, Economy and Intermediate, depending on pick up/return location and rental period. Please have a note that if you don't own credit card that you will need to select PREMIUM insurance + 40 Eur for no credit card fee. **No Credit Card** fee can be selected on step 4 of booking process."
+    },
+    {
+      "question": "What if I need to cancel my reservation?",
+      "answer": "Please inform us as soon as possible in case you want to cancel or change the reservation. Change or cancel your current reservation at any point prior to the rental. There are no charges incurred for re-booking and cancellations. Email us at: hi@support.avaxrent.com make a note that you want to cancel once we got your request we will provide you cancellation email notification."
+    },
+    {
+      "question": "Can I drive car outside Croatia? ",
+      "answer": "Cross Border Rentals are allowed without additional charge to the following countries: ALL EU COUNTRIES, Bosnia, Serbia and Montenegro. For Macedonia, Albania & Kosovo fee applies, 80 Eur for rental period, option can be selected under the extras, step 4 booking process.Cross Bordering into, Romania, Bulgaria & Turkey is NOT allowed unless we have given you written permission to do so."
+    },
+    {
+      "question": "Can I get a refund if I returned my car early?",
+      "answer": "Unfortunately we can not refund you for any part of your hire that you do not use."
+    },
+    {
+      "question": "How old do I have to be, to rent a car from your car rental company?",
+      "answer": "Authorised driver must have 22 years ( If the customer is in the age range 18 -21 YOUNG DRIVER FEE in the amount of 10 € per day with a maximum of 87,50 € per rental will apply + PREMIUM insurance is mandatory)."
+    }
+  ]
+}

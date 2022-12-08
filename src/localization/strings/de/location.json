@@ -1,0 +1,31 @@
+{
+  "address": "Adresse",
+  "phone": "Telefon",
+  "email": "Email",
+  "openingHours": "Öffnungszeiten",
+  "title": "Mietwagen in",
+  "subtitle": "wählen Sie im folgenden Feld ihre Wunschstation aus",
+  "faqTitle": "Häufig gestellte Fragen",
+  "faq": [
+    {
+      "question": "Brauche ich eine Kreditkarte, um ein Auto zu mieten?",
+      "answer": "Nein, es gibt keine Notwendigkeit, eine Kreditkarte zu halten, wenn Sie sich entscheiden, die Autovermietung Kosten bei der Ankunft zu bezahlen. Wir erlauben die Anmietung eines Autos ohne Kreditkarte mit einigen besonderen Umständen für kleinere Autogruppen Mini, Economy und Intermediate, je nach Abhol-/Rückgabeort und Mietdauer. Bitte beachten Sie, dass Sie, wenn Sie keine Kreditkarte besitzen, die PREMIUM Versicherung + 40 Eur für keine Kreditkartengebühr auswählen müssen. **Keine Kreditkartengebühr** kann in Schritt 4 des Buchungsvorgangs ausgewählt werden. Übersetzt mit www.DeepL.com/Translator (kostenlose Version)"
+    },
+    {
+      "question": "Was ist, wenn ich meine Reservierung stornieren muss?",
+      "answer": "Bitte informieren Sie uns so schnell wie möglich, falls Sie die Reservierung stornieren oder ändern möchten. Ändern oder stornieren Sie Ihre aktuelle Reservierung zu einem beliebigen Zeitpunkt vor der Anmietung. Es entstehen keine Kosten für Umbuchungen und Stornierungen. Schicken Sie uns eine E-Mail an: hi@support.avaxrent.com und vermerken Sie, dass Sie stornieren möchten, sobald wir Ihre Anfrage erhalten haben. Übersetzt mit www.DeepL.com/Translator (kostenlose Version)"
+    },
+    {
+      "question": "Kann ich mit dem Auto außerhalb Kroatiens fahren? ",
+      "answer": "Grenzüberschreitende Vermietungen sind ohne Aufpreis in die folgenden Länder erlaubt: ALLE EU-LÄNDER, Bosnien, Serbien und Montenegro. Für Mazedonien, Albanien & Kosovo Gebühr gilt, 80 Eur für den Mietzeitraum, Option kann unter den Extras, Schritt 4 Buchungsprozess ausgewählt werden.Cross Bordering in, Rumänien, Bulgarien & Türkei ist NICHT erlaubt, es sei denn, wir haben Ihnen eine schriftliche Erlaubnis, dies zu tun."
+    },
+    {
+      "question": "Kann ich eine Rückerstattung erhalten, wenn ich meinen Mietwagen vorzeitig zurückgegeben habe?",
+      "answer": "Leider können wir Ihnen keine Rückerstattung für einen nicht genutzten Teil Ihrer Miete gewähren."
+    },
+    {
+      "question": "Wie alt muss ich sein, um bei Ihrer Autovermietung ein Auto zu mieten?",
+      "answer": "Der autorisierte Fahrer muss 22 Jahre alt sein ( Wenn der Kunde im Alter von 18 -21 Jahren ist, wird eine JUGENDFAHRERGEBÜHR in Höhe von 10 € pro Tag mit einem Maximum von 87,50 € pro Anmietung fällig + PREMIUM Versicherung ist obligatorisch)."
+    }
+  ]
+}

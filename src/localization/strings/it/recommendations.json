@@ -1,0 +1,21 @@
+{
+  "title": "Noleggio Auto - Avax",
+  "subtitle": "Quando stai cercando il miglior prezzo per le auto a noleggio in Croazia vai su Avax",
+  "items": [
+    {
+      "title": "Suzuki Swift",
+      "text": "Suzuki Swift è un modello nuovo di zecca con grande efficienza di combustibile, maneggevolezza e stabilità",
+      "img": "swift"
+    },
+    {
+      "title": "Suzuki Ignis",
+      "text": "Suzuki Ignis ha tutto il necessario, il design orientato alla città, dimensioni compatte facili da gestire e prestazioni superiori su strada.",
+      "img": "ignis"
+    },
+    {
+      "title": "Suzuki S-Cross",
+      "text": "Suzuki S-Cross è una grande auto per la famiglia con un valore superbo. Portapacchi grandissimo.",
+      "img": "scross"
+    }
+  ]
+}

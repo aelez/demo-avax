@@ -1,0 +1,31 @@
+{
+  "address": "Dirección",
+  "phone": "Teléfono",
+  "email": "Email",
+  "openingHours": "Horario de apertura",
+  "title": "Alquiler de coches",
+  "subtitle": "alquiler de coches baratos",
+  "faqTitle": "Preguntas más frecuentes",
+  "faq": [
+    {
+      "question": "He decidido pagar en la oficina. ¿Cómo puedo pagar?",
+      "answer": "SÍ. Siempre puedes reservar y pagar en el lugar. Los pagos en el lugar pueden realizarse en efectivo o con cualquier tarjeta de crédito (VISA & MASTERCARD ). El titular de la tarjeta de crédito debe estar presente para firmar."
+    },
+    {
+      "question": "¿Cuántos años tengo que tener para alquilar un coche en su empresa de alquiler de coches?",
+      "answer": "El conductor autorizado debe tener 22 años ( Si el cliente está en el rango de edad de 18 -21 años, se aplicará una tarifa de conductor joven de 10 euros por día con un máximo de 87,50 euros por alquiler + seguro PREMIUM obligatorio)."
+    },
+    {
+      "question": "¿Puedo conducir el coche fuera de Croacia? ",
+      "answer": "Los alquileres transfronterizos se permiten sin cargo adicional a los siguientes países: TODOS LOS PAÍSES DE LA UE, Bosnia, Serbia y Montenegro. Para Macedonia, Albania y Kosovo se aplica una tarifa, 80 Eur por período de alquiler, la opción puede ser seleccionada en los extras, paso 4 del proceso de reserva. Cruzar la frontera hacia, Rumania, Bulgaria y Turquía no está permitido a menos que le hayamos dado permiso por escrito para hacerlo."
+    },
+    {
+      "question": "¿Existe un límite de kilometraje durante mi alquiler?",
+      "answer": "El kilometraje ilimitado está incluido en nuestras tarifas., por favor, tenga en cuenta que esto está sujeto a nuestra política de uso justo. Para alquileres generalmente se permite 600 km por día. Eventuales extras serán cobrados por la lista de precios (1,50 HRK/ 1 km). El kilometraje mensual estándar es de hasta 4500 km."
+    },
+    {
+      "question": "¿Se harán cargos a mi tarjeta de crédito en el momento de la reserva?",
+      "answer": "No, no le cargaremos a su tarjeta de crédito ni le pediremos información de la misma durante el proceso de reserva. Todos los pagos se realizan a su llegada para recoger el vehículo en la sucursal."
+    }
+  ]
+}

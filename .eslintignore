@@ -1,5 +1,1 @@
-.cache
-.git
-node_modules
-public
-build
+src/components/Icons/*

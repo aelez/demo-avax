@@ -1,0 +1,11 @@
+.image {
+  height: 100%;
+}
+
+.label {
+  z-index: 15;
+
+  .wrapper:hover & {
+    display: none;
+  }
+}

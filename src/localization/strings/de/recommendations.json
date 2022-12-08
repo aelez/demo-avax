@@ -1,0 +1,21 @@
+{
+  "title": "Mietwagen Kroatien | Avax Autovermietung",
+  "subtitle": "Mit wenigen Schritten ist Ihr Wunsch-Mietwagen schnell und komfortabel gebucht",
+  "items": [
+    {
+      "title": "Suzuki Swift",
+      "text": "Suzuki Swift ist ein brandneues Modell mit großer Kraftstoffeffizienz, Handling und Stabilität",
+      "img": "swift"
+    },
+    {
+      "title": "Suzuki Ignis",
+      "text": "Niedriger Spritverbrauch, der stilvolle Ignis is wie geschaffen für eine Spritztour",
+      "img": "ignis"
+    },
+    {
+      "title": "Suzuki S-Cross",
+      "text": "Suzuki S-Cross ist ein schönes Familienauto mit mit großem Kofferraum",
+      "img": "scross"
+    }
+  ]
+}

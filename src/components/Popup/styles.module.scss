@@ -1,0 +1,43 @@
+@import '../../theme/colors.scss';
+
+.wrapper {
+  position: relative;
+}
+
+.label {
+  display: flex;
+  align-items: center;
+  border: none;
+  padding: 0;
+  background: none;
+
+  &:focus {
+    outline: none;
+    opacity: 0.7;
+  }
+
+  cursor: pointer;
+}
+
+.caret {
+  display: flex;
+  padding-left: 0.5rem;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.popup {
+  position: absolute;
+  background: $white;
+
+  z-index: 10;
+}
+
+.bottom {
+  left: 0;
+}
+
+.right {
+  left: 100%;
+}

@@ -1,0 +1,21 @@
+{
+  "title": "Alquiler de coche para tu viaje",
+  "subtitle": "Le garantizamos los mejores precios en coches de Croacia, Económicos y Familiares en Croacia en aeropuertos y ciudades de todo.¡Reserve hoy!",
+  "items": [
+    {
+      "title": "Suzuki Swift",
+      "text": "El Nuevo Swift ha llegado para darle un impulso a tu vida. Más deportivo, con más carácter y sin límites. Este coche único, desprende sensación de movimiento incluso cuando está parado.",
+      "img": "swift"
+    },
+    {
+      "title": "Suzuki Ignis",
+      "text": "La versatilidad nunca fue tan sencilla como en el nuevo Suzuki Ignis. Explora tus sentidos conduciendo este compacto crossover de fuerte personalidad y siente un mundo de nuevas emociones a flor de piel.",
+      "img": "ignis"
+    },
+    {
+      "title": "Suzuki S-Cross",
+      "text": "Su frontal fuerte y potente reafirma el robusto carácter de este SUV, capaz de llevarte a la aventura como cualquier todoterreno con las comodidades que te brinda un crossover.",
+      "img": "scross"
+    }
+  ]
+}

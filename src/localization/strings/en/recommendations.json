@@ -1,0 +1,21 @@
+{
+  "title": "Recommended for you",
+  "subtitle": "We found some best rated car hire models for you.",
+  "items": [
+    {
+      "title": "Suzuki Swift",
+      "text": "Great fuel economy, the stylish Swift is great fun to drive.",
+      "img": "swift"
+    },
+    {
+      "title": "Suzuki Ignis",
+      "text": "Crossover styling under the concept of \"Simple & Iconic\". Book your Ignis in Croatia.",
+      "img": "ignis"
+    },
+    {
+      "title": "Suzuki S-Cross",
+      "text": "Get ready for an adventure! Book brand new Suzuki S-Cross, avaiable in all locations.",
+      "img": "scross"
+    }
+  ]
+}

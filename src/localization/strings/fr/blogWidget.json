@@ -1,0 +1,24 @@
+{
+  "title": "Dernières nouvelles",
+  "subtitle": "Les dernières nouvelles, réflexions et mises à jour de l'équipe.",
+  "items": [
+    {
+      "title": "Pourquoi réserver avec nous",
+      "text":
+        "Kilométrage illimité, assistance routière 24h/24, 7j/7, frontière gratuite, nouveaux modèles de voitures et service exceptionnel ! Chauffeur supplémentaire gratuit et cartes de la Croatie.",
+      "img": "carRentalPost"
+    },
+    {
+      "title": "Cross-Border free",
+      "text":
+        "La carte verte sert de preuve de l'assurance responsabilité civile contractuelle de l'automobile et est utilisée lors de la sortie du véhicule à l'étranger. Nous offrons la frontière transfrontalière gratuite.",
+      "img": "crossBorderPost"
+    },
+    {
+      "title": "Assurance location",
+      "text":
+        "Trouvez plus d'informations sur notre police d'assurance et de protection des dépôts. Vous pouvez sélectionner : START (Excédent total), MEDIUM (Excédent réduit) ou PREMIUM (Excédent zéro). ",
+      "img": "insurancePost"
+    }
+  ]
+}

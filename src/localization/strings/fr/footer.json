@@ -1,0 +1,21 @@
+{
+  "company": "Compagnie",
+  "faq": "Questions fréquentes",
+  "blog": "Blog",
+  "status": "État du système",
+  "about": "A propos de nous",
+  "affiliate": "Affilié",
+  "partners": "Partenaires",
+  "customerService": "Service relation clients",
+  "otherServices": "Autres services",
+  "longTermRental": "Locationmoyenne durée",
+  "carRentalDelivery": "Avx à domicile",
+  "motoRent": "Location de moto",
+  "transfers": "Service de transfer",
+  "legal": "Informations légales",
+  "toc": "Conditions générales",
+  "insurance": "Option d'assurance",
+  "privacy": "Politique de confidentialité",
+  "complain": "Se plaindre",
+  "contact": "Nous contacter"
+}

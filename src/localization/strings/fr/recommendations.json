@@ -1,0 +1,21 @@
+{
+  "title": "Recommandé pour vous",
+  "subtitle": "Nos tarifs pas chers de voitures et de minibus vous offres une excellente valeur par notre service qui l'un de meilleures de Croatie.",
+  "items": [
+    {
+      "title": "Suzuki Swift",
+      "text": "La Suzuki Swift est un tout nouveau model efficace en essence, manipulation et stabilité. ",
+      "img": "swift"
+    },
+    {
+      "title": "Suzuki Ignis",
+      "text": "La Suzuki Ignis est tout ce qu'il vous faut, design pour ville, compact, facile a conduire et haute performance sur route.",
+      "img": "ignis"
+    },
+    {
+      "title": "Suzuki S-Cross",
+      "text": "La Suzuki S-Cross est une voiture parfaite pour la famille avec une superbe valeur.",
+      "img": "scross"
+    }
+  ]
+}

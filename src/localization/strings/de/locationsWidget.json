@@ -1,0 +1,47 @@
+{
+  "title": "Autovermietung in Kroatien",
+  "subtitle": "Mietwagen Split, Zagreb, Dubrovnik, Pula, Opatija, Zadar, Sibenik, Korcula, Rogoznica, Vodice, Trogir, Pula, Makarska, Zagreb, Omiš",
+  "items": [
+    {
+      "name": "Dubrovnik",
+      "title": "Dubrovnik Kroatien",
+      "text": "Mieten Sie ein Auto im Hafen von Dubrovnik und besuchen Sie Montenegro, Bosnien oder Mazedonien.",
+      "image": "dubrovnik",
+      "width": 4,
+      "path": "/de/locations/dubrovnik-downtown"
+    },
+    {
+      "name": "Zadar",
+      "title": "Zadar Kroatien",
+      "text": "Mieten Sie ein Auto mit Avax Autovermietung in Zadar und machen Sie das Beste aus Ihrer Reise. Unsere Autovermietung in Zadar bietet Ihnen niedrige Preise, super Service und neue Fahrzeuge.",
+      "image": "zadar",
+      "width": 4,
+      "path": "/de/locations/zadar-center"
+    },
+    {
+      "name": "Sibenik",
+      "title": "Sibenik Kroatien",
+      "text": "Mieten Sie ein Auto in Sibenik Kroatien - genießen Sie eine bequeme Übernahme in der Sibenik Innenstadt. Buchen Sie Ihren Mietwagen in Sibenik heute noch!",
+      "image": "sibenik",
+      "width": 4,
+      "path": "/de/locations/sibenik-center"
+    },
+    {
+      "name": "Split",
+      "title": "Split Kroatien",
+      "text": "Mieten Sie ein Auto bei Avax in Split Zentrum und machen Sie riesige Einsparungen! Wir garantieren den niedrigsten Mietwagenpreis im Zentrum von Split.",
+      "image": "split",
+      "width": 8,
+      "open": true,
+      "path": "/de/locations/split-center"
+    },
+    {
+      "name": "Zagreb",
+      "title": "Zagreb Kroatien",
+      "text": "Mieten Sie ein Auto bei Avax in Zagreb Zentrum und machen Sie riesige Einsparungen! Wir garantieren den niedrigsten Mietwagenpreis im Zentrum von Zagreb.",
+      "image": "zagreb",
+      "width": 4,
+      "path": "/de/locations/zagreb-center"
+    }
+  ]
+}

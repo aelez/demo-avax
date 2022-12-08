@@ -1,111 +1,72 @@
-const siteName = "Sample Blog";
-const siteShortName = "Avax rent a car";
-const siteUrl = "https://demo.avaxrent.com";
-const siteDescription = "Test Avax rent a car";
-const siteKeyword = "";
-const siteLogo = "logo.png";
-const siteLogoFolder = `static/${siteLogo}`;
-
 module.exports = {
   siteMetadata: {
-    title: siteName,
-    siteUrl,
-    description: siteDescription,
+    title: 'Avax Rent-a-Car',
+    siteUrl: 'https://avaxrent.com',
   },
   plugins: [
-    "gatsby-plugin-sitemap",
-    "gatsby-plugin-typescript",
-    "gatsby-plugin-react-helmet",
-    "gatsby-plugin-styled-components",
-    "gatsby-plugin-robots-txt",
+    'gatsby-plugin-react-helmet',
+    //'gatsby-plugin-offline',
+    'gatsby-plugin-react-next',
+    'gatsby-plugin-sass',
     {
-      // keep as first gatsby-source-filesystem plugin for gatsby image support
-      resolve: "gatsby-source-filesystem",
+      resolve: 'gatsby-source-mom-locations',
       options: {
-        path: `${__dirname}/content`,
-        name: "contents",
+        path: `${__dirname}/src/data/locationDescriptions`,
       },
     },
     {
-      resolve: "gatsby-source-filesystem",
+      resolve: 'gatsby-source-locale',
       options: {
-        name: "images",
-        path: `${__dirname}/static`,
+        pagesPath: `${__dirname}/src/localization/pages/`,
+        stringsPath: `${__dirname}/src/localization/strings/`,
       },
     },
     {
-      resolve: `gatsby-transformer-remark`,
+      resolve: 'gatsby-source-filesystem',
       options: {
-        plugins: [
-          {
-            resolve: `gatsby-remark-images`,
-            options: {
-              maxWidth: 2048,
-              linkImagesToOriginal: true,
-            },
-          },
-          {
-            resolve: `gatsby-remark-prismjs`,
-          },
-          {
-            resolve: `gatsby-remark-copy-linked-files`,
-          },
-        ],
+        name: 'img',
+        path: `${__dirname}/src/images/`,
       },
     },
-    "gatsby-transformer-sharp",
-    "gatsby-plugin-sharp",
+    'gatsby-transformer-sharp',
+    'gatsby-plugin-sharp',
     {
-      resolve: "gatsby-plugin-manifest",
+      resolve: 'gatsby-plugin-netlify',
       options: {
-        name: siteName,
-        short_name: siteShortName,
-        description: siteDescription,
-        background_color: `#ffffff`,
-        theme_color: `#ffffff`,
-        display: `standalone`,
-        lang: "en",
-        start_url: "/",
-        include_favicon: true,
-        icon: siteLogoFolder, // This path is relative to the root of the site.
+        headers: {
+          // all statics but sw.js
+          // '/sw.js': ['Cache-Control: public,max-age=0, must-revalidate'],
+          // '/*.{js,jpg,png,ico,gif,css,woff,woff2}': ['Cache-Control: public, max-age=31536000'],
+        }, // option to add more headers. `Link` headers are transformed by the below criteria
+        // allPageHeaders: [], // option to add headers for all pages. `Link` headers are transformed by the below criteria
+        // mergeSecurityHeaders: true, // boolean to turn off the default security headers
+        // mergeLinkHeaders: false, // boolean to turn off the default gatsby js headers (disabled by default, until gzip is fixed for server push)
+        mergeCachingHeaders: true, // boolean to turn off the default caching headers
+        // transformHeaders: (headers, path) => headers, // optional transform for manipulating headers under each path (e.g.sorting), etc.
       },
     },
     {
-      resolve: "gatsby-plugin-seo",
+      resolve: 'gatsby-plugin-manifest',
       options: {
-        siteName,
-        defaultSiteImage: siteLogo,
-        siteUrl,
-        keywords: siteKeyword,
-        globalSchema: `{
-            "@type": "WebSite",
-            "@id": "${siteUrl}",
-            "url": "${siteUrl}",
-            "name": "${siteName}",
-            "publisher": {
-              "@id": "${siteUrl}"
-            },
-            "image": {
-              "@type": "ImageObject",
-              "@id": "${siteUrl}${siteLogo}",
-              "url": "${siteUrl}${siteLogo}",
-              "caption": siteName
-            }
-          }`,
+        name: 'Avax Rent-a-Car',
+        short_name: 'Avax',
+        start_url: '/',
+        background_color: '#ffffff',
+        theme_color: '#E83542',
+        display: 'minimal-ui',
+        icon: 'src/manifest/icon.png',
       },
     },
     {
-      resolve: `gatsby-plugin-react-helmet-canonical-urls`,
+      resolve: 'gatsby-plugin-google-analytics',
       options: {
-        siteUrl,
-        noTrailingSlash: true,
+        trackingId: 'UA-51015107-1',
+        head: false,
+        anonymize: true,
+        respectDNT: true,
       },
     },
-    {
-      resolve: "gatsby-plugin-netlify-cms",
-    },
-    {
-      resolve: `gatsby-plugin-slug`,
-    },
+    'gatsby-plugin-no-sourcemaps',
+    'gatsby-plugin-sitemap',
   ],
 };

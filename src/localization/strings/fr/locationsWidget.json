@@ -1,0 +1,47 @@
+{
+  "title": "Location de voiture Croatie",
+  "subtitle": "Explorez notre site pour découvrir les cartes, ressources et astuces qui vous aideront  a planifier votre route pendant vos vacances. ",
+  "items": [
+    {
+      "name": "Dubrovnik",
+      "title": "Dubrovnik Croatie",
+      "text": "Retirer votre location de voiture a Dubrovnik avec Avax rent-a-car, découvrez la magie de Dubrovnik et les routes vers toute la Croatie, le Monténégro et même la Macédoine vous sont ouvertes.",
+      "image": "dubrovnik",
+      "width": 4,
+      "path": "/fr/locations/dubrovnik-downtown"
+    },
+    {
+      "name": "Zadar",
+      "title": "Zadar Croatie",
+      "text": "Si vous cherchez a louer une voiture a Zadar, vous allez avoir un très bon prix nous. On offre aussi de très bon prix pour dans toute la Croatie",
+      "image": "zadar",
+      "width": 4,
+      "path": "/fr/locations/zadar-center"
+    },
+    {
+      "name": "Sibenik",
+      "title": "Sibenik Croatie",
+      "text": "Louer une voiture a Šibenik - profitez convenablement du retrait au centre de Šibenik. Réservez votre voiture a Šibenik aujourd'hui!",
+      "image": "sibenik",
+      "width": 4,
+      "path": "/fr/locations/sibenik-center"
+    },
+    {
+      "name": "Split",
+      "title": "Split Croatie",
+      "text": "Louer une voiture au centre de Split avec Avax et faites d'énormes économies! Nous garantissons les prix les plus moins chers au centre de Split",
+      "image": "split",
+      "width": 8,
+      "open": true,
+      "path": "/fr/locations/split-center"
+    },
+    {
+      "name": "Zagreb",
+      "title": "Zagreb Croatie",
+      "text": "Louer une voiture a Zagreb avec Avax renta car Zagreb et profitez de vos vacances. Renta car Zagreb vous offres de bon prix, bon service and des nouveaux véhicules.",
+      "image": "zagreb",
+      "width": 4,
+      "path": "/fr/locations/zagreb-center"
+    }
+  ]
+}

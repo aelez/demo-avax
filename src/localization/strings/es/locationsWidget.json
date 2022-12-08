@@ -1,0 +1,47 @@
+{
+  "title": "Alquiler de coches en Croacia",
+  "subtitle": "Alquilar un coche es la forma perfecta de descubrir la preciosa historia, cultura y maravillas naturales de Croacia.",
+  "items": [
+    {
+      "name": "Dubrovnik",
+      "title": "Dubrovnik Croacia",
+      "text": "Alquiler de coches en Dubrovnik Dubrovnik Croacia",
+      "image": "dubrovnik",
+      "width": 4,
+      "path": "/es/locations/dubrovnik-downtown"
+    },
+    {
+      "name": "Zadar",
+      "title": "Zadar Croacia",
+      "text": "Alquiler de coches en Zadar Croacia",
+      "image": "zadar",
+      "width": 4,
+      "path": "/es/locations/zadar-center"
+    },
+    {
+      "name": "Sibenik",
+      "title": "Sibenik Croacia",
+      "text": "Alquiler de coches en Sibenik Croacia",
+      "image": "sibenik",
+      "width": 4,
+      "path": "/es/locations/sibenik-center"
+    },
+    {
+      "name": "Split",
+      "title": "Split Croacia",
+      "text": "Alquiler de coches en Split Croacia",
+      "image": "split",
+      "width": 8,
+      "open": true,
+      "path": "/es/locations/split-center"
+    },
+    {
+      "name": "Zagreb",
+      "title": "Zagreb Croacia",
+      "text": "Alquiler de coches en Zagreb Croacia",
+      "image": "zagreb",
+      "width": 4,
+      "path": "/es/locations/zagreb-center"
+    }
+  ]
+}

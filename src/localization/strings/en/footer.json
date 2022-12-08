@@ -1,0 +1,21 @@
+{
+  "company": "Company",
+  "faq": "FAQ",
+  "blog": "Blog",
+  "status": "System Status",
+  "about": "About us",
+  "affiliate": "Affiliate",
+  "partners": "Partners",
+  "customerService": "Customer Service",
+  "otherServices": "Other Services",
+  "longTermRental": "Long Term Rental",
+  "carRentalDelivery": "Car Rental Delivery",
+  "motoRent": "Motorcycle rent",
+  "transfers": "Transfers",
+  "legal": "legal information",
+  "toc": "Terms and Conditions",
+  "insurance": "Insurance Policy",
+  "privacy": "Privacy Policy",
+  "complain": "Complain",
+  "contact": "Contact"
+}

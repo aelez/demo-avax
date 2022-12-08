@@ -1,0 +1,48 @@
+{
+  "pageTitle": "Transfer service ",
+  "pageSubTitle": "Best Transfer service in Croatia",
+  "description": "Avax Airport Transport is specialized in providing express transportation (Private Hire), services for to and from all Croatia Airports, Cruise Ports, Train Stations, to and from anywhere in the Croatia.",
+  "keywords": "Transfer service System, Transfer service croatia car rental, Transfer service System avax, Transfer service avax. avax rent Transfer service",
+  "intro":
+    "Avax Airport Transport is specialized in providing express transportation (Private Hire), services for to and from all Croatia Airports, Cruise Ports, Train Stations, to and from anywhere in the Croatia. Our prices are fixed and 40% cheaper than the metered taxis that you hire at the airports, seaports, stations or on the streets!",
+    "title": "Private hire transfers to & from any part of the Croatia. We operate 24 hours, 7 days a week.r",
+  "sections": [
+    {
+      "title": "We offer service at:",
+      "sections": [
+        {
+          
+          "html": [
+            "<ul>",
+            "<li>Zadar Airport Transfers</li>",
+            "<li>Split Airport Transfers</li>",
+            "<li>Zagreb Airport Transfers</li>",
+            "<li>Dubrovnik Airport Transfers</li>",
+            "<li>Split Center Transfers/li>",
+            "<li>Dubrovnik Center Transfers</li>",
+            "<li>Sibenik Center Transfers</li>",
+            "<li>Zadar Center Transfers</li>",
+            "</ul>"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Contact us for if you need Transfer Service.",
+      "sections": [
+        {
+          "title": "Please send the information below to inquiry@avaxrent.com and we will be in touch to agree details.",
+          "html": [
+            "<ul>",
+            "<li>Your Name</li>",
+            "<li>Date when you need transfer and location from/to</li>",
+            "<li>How many people</li>",
+            "</ul>"
+          ]
+        }
+      ]
+    }
+    
+  ]
+}
+

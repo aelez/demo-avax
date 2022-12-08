@@ -1,0 +1,31 @@
+{
+  "address": "Indirizzo",
+  "phone": "Telefono",
+  "email": "Email",
+  "openingHours": "Orari di apertura",
+  "title": "Noleggio auto",
+  "subtitle": "Prenota la tua auto",
+  "faqTitle": "Domande Frequenti",
+  "faq": [
+    {
+      "question": "Ho bisogno di una carta di credito per noleggiare un'auto?",
+      "answer": "No, non c'è bisogno di una carta di credito se si decide di pagare il costo del noleggio auto all'arrivo. Permettiamo il noleggio di un'auto senza carta di credito con alcune circostanze speciali per i gruppi di auto più piccoli Mini, Economy e Intermediate, a seconda del luogo di ritiro/ritiro e del periodo di noleggio. Si prega di tenere presente che se non si possiede una carta di credito è necessario selezionare l'assicurazione PREMIUM + 40 Eur per nessun costo della carta di credito. **Non è possibile selezionare Nessuna tassa della carta di credito nella fase 4 del processo di prenotazione."
+    },
+    {
+      "question": "E se dovessi cancellare la mia prenotazione?",
+      "answer": "Vi preghiamo di informarci al più presto nel caso in cui vogliate cancellare o modificare la prenotazione. Modificare o cancellare la prenotazione attuale in qualsiasi momento prima del noleggio. Non sono previste spese per la ri-prenotazione e le cancellazioni. Inviateci un'e-mail all'indirizzo: hi@support.avaxrent.com. Una volta ricevuta la vostra richiesta, vi invieremo un'e-mail di notifica di cancellazione."
+    },
+    {
+      "question": "Posso guidare la macchina fuori dalla Croazia?",
+      "answer": "I noleggi transfrontalieri sono consentiti senza costi aggiuntivi nei seguenti paesi: TUTTI I PAESI UE, Bosnia, Serbia e Montenegro. Per Macedonia, Albania e Kosovo si applica la tassa, 80 Eur per il periodo di noleggio, l'opzione può essere selezionata sotto gli extra, fase 4 del processo di prenotazione.Cross Border in, Romania, Bulgaria e Turchia NON è consentito a meno che non vi abbiamo dato il permesso scritto a farlo."
+    },
+    {
+      "question": "Posso essere rimborsato se restituisco la mia auto in anticipo?",
+      "answer": "Purtroppo non possiamo rimborsarvi per una parte del vostro noleggio che non utilizzate."
+    },
+    {
+      "question": "Quanti anni devo avere per noleggiare un'auto dalla vostra compagnia di noleggio?",
+      "answer": "L'autista autorizzato deve avere 22 anni ( Se il cliente ha un'età compresa tra i 18 e i 21 anni si applica una TASSA DI GUIDA GIOVANE dell'importo di 10 € al giorno con un massimo di 87,50 € a noleggio + l'assicurazione PREMIUM è obbligatoria)."
+    }
+  ]
+}

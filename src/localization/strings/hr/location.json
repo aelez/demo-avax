@@ -1,0 +1,31 @@
+{
+  "address": "Adresa",
+  "phone": "Telefon",
+  "email": "Email",
+  "openingHours": "Radno vrijeme",
+  "title": "Najam vozila",
+  "subtitle": "iznajmljivanje vozila",
+  "faqTitle": "Često postavljana pitanja",
+  "faq": [
+    {
+      "question": "Trebam li imati međunarodnu vozačku dozvolu kako bi iznajmio vozilo?",
+      "answer": "Važeća vozačka dozvola potrebna je za preuzimanje vozila. Vozačka dozvola mora biti napisana latiničnim znakovima (europska i/ili međunarodna vozačka dozvola ili prijevod)"
+    },
+    {
+      "question": "Što nije uključeno u Vaše cijene ili Posebne ponude?",
+      "answer": "Gorivo nije uključeno u najam (klijent plaća gorivo). Uz to, sve prometne prekršaje i parkirne kazne plaća klijent (ovlašteni vozač)."
+    },
+    {
+      "question": "Može li depozit za franšizu biti smanjen na nulu?",
+      "answer": "Da, ako odaberete opciju PREMIUM osiguranja, sigurnosni depozit za franšizu bit će smanjen na nulu. Imajte na umu, čak i ako uzmemo Premium osiguranje, predautorizirat ćemo sigurnosni depozit za: Parkirne kazne i Prometne prekršaje u visini od 120 €. To će vam automatski biti vraćeno ako tijekom razdoblja najma vozila ne bude parkirnih kazni ili prometnih prekršaja."
+    },
+    {
+      "question": "Ima li ograničenja u kilometrima kod najma vozila?",
+      "answer": "Sve naše cijene uključuju neograničene kilometre, što znači da možete voziti koliko god želite."
+    },
+    {
+      "question": "Kako ću pronaći Vašu lokaciju?",
+      "answer": "Sve potrebne informacijama s detaljnim kartama, telefonskim brojevima i ostalim podatcima o lokaciji dobit ćete na potvrdnom e-mail-u."
+    }
+  ]
+}

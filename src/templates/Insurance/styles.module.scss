@@ -1,0 +1,53 @@
+@import '../../theme/colors.scss';
+@import '../../theme/breakpoints.scss';
+
+.container {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  padding: 3.125rem 2rem;
+
+  @media screen and (min-width: $smallDesktop) {
+    flex-flow: row nowrap;
+    padding: 4.375rem 2rem 6.25rem;
+    justify-content: center;
+    align-items: flex-start;
+  }
+}
+
+.termsWrapper {
+  display: flex;
+  flex-flow: column;
+  max-width: 37.5rem;
+}
+
+.pageTitle {
+  font-weight: 600;
+}
+
+.intro {
+  padding: 3.125rem 0;
+  border-bottom: 1px solid $border-light;
+}
+
+.companyInfo {
+  padding: 3.125rem 0 0;
+}
+
+.sectionTitle {
+  margin: 1.875rem 0;
+}
+
+.bannerWrapper {
+  display: flex;
+  justify-content: center;
+  margin: 3.125rem 0 0;
+
+  @media screen and (min-width: $smallDesktop) {
+    margin: 0 3rem;
+  }
+}
+
+.banner {
+  width: 100%;
+}

@@ -1,0 +1,47 @@
+{
+  "title": "Noleggio auto in Croazia",
+  "subtitle": "Quando stai cercando il miglior prezzo per le auto a noleggio in Croazia vai su Avax",
+  "items": [
+    {
+      "name": "Dubrovnik",
+      "title": "Dubrovnik Croazia",
+      "text": "Prendi la tua auto a Dubrovnik con Avax rent a car, Scopri la magia di Dubrovnik.Le strade della Croazia, Montenegro e Macedonia sono aperte a voi.",
+      "image": "dubrovnik",
+      "width": 4,
+      "path": "/it/locations/dubrovnik-downtown"
+    },
+    {
+      "name": "Zara",
+      "title": "Zara Croazia",
+      "text": "Se stai cercando noleggio auto Zara troverai ottimi prezzi con noi.",
+      "image": "zadar",
+      "width": 4,
+      "path": "/it/locations/zadar-center"
+    },
+    {
+      "name": "Sibenik",
+      "title": "Sibenik Croazia",
+      "text": "Noleggio auto Avax a Sibenik. Ricevi offerte speciali e sconti sull'autonoleggio a Padova se prenoti online con Avax.",
+      "image": "sibenik",
+      "width": 4,
+      "path": "/it/locations/sibenik-center"
+    },
+    {
+      "name": "Split",
+      "title": "Split Croazia",
+      "text": "Noleggia un'auto a Spalato con Avax e risparmierai molto denaro ! Garantiamo il prezzo più basso per noleggiare un'auto a Spalato.",
+      "image": "split",
+      "width": 8,
+      "open": true,
+      "path": "/it/locations/split-center"
+    },
+    {
+      "name": "Zagabria",
+      "title": "Zagabria Croazia",
+      "text": "Noleggio auto Avax a Zagabria. Ricevi offerte speciali e sconti sull'autonoleggio a Padova se prenoti online con Avax.",
+      "image": "zagreb",
+      "width": 4,
+      "path": "/it/locations/zagreb-center"
+    }
+  ]
+}

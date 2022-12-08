@@ -1,0 +1,21 @@
+{
+  "title": "Preporučamo: ",
+  "subtitle": "Naši najtraženiji modeli automobila za najam",
+  "items": [
+    {
+      "title": "Suzuki Swift",
+      "text": "Swift je jedan od naših najtraženijih automobila za najam. Sofisticirani dizajn skladno spaja otmjenost sa sportskim dojmom.",
+      "img": "swift"
+    },
+    {
+      "title": "Suzuki Ignis",
+      "text": "U našoj ponudi je i Suzuki Ignis, mini crossover koji kombinira jednostavnu i atraktivnu vanjštinu sa svestranom funkcionalnošću.",
+      "img": "ignis"
+    },
+    {
+      "title": "Suzuki S-Cross",
+      "text": "U ponudi imamo novi SX4 S-Cross koji je idealan za obiteljsko putovanje. Velik prtljažnik ce vam omoguciti aktivan odmor sa opremom.",
+      "img": "scross"
+    }
+  ]
+}

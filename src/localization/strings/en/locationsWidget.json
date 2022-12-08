@@ -1,0 +1,47 @@
+{
+  "title": "Car rental in Croatia",
+  "subtitle": "Ready for an adventure? Book a car rental in one of the popular locations in Croatia.",
+  "items": [
+    {
+      "name": "Dubrovnik",
+      "title": "Dubrovnik Croatia",
+      "text": "With a simple booking system and a great selection of vehicles, Avaxrent is the perfect choice for your Dubrovnik car rental.",
+      "image": "dubrovnik",
+      "width": 4,
+      "path": "/en/locations/dubrovnik-downtown"
+    },
+    {
+      "name": "Zadar",
+      "title": "Zadar Croatia",
+      "text": "Car rental at Zadar near Church of St. Donatus is made easy with Avax rent a car. Friendly service, new cars and low prices are part of our every day offer.",
+      "image": "zadar",
+      "width": 4,
+      "path": "/en/locations/zadar-center"
+    },
+    {
+      "name": "Sibenik",
+      "title": "Sibenik Croatia",
+      "text": "Our main car rental office is located near St. James in Šibenik, very easy to find. We offer best car rental prices in Šibenik with best service in town",
+      "image": "sibenik",
+      "width": 4,
+      "path": "/en/locations/sibenik-center"
+    },
+    {
+      "name": "Split",
+      "title": "Renting a Car in Split City Centre",
+      "text": "We offer cheap city car hire in a convenient location in Split. The customer service staff will be waiting to take you through the car hire procedure.",
+      "image": "split",
+      "width": 8,
+      "open": true,
+      "path": "/en/locations/split-center"
+    },
+    {
+      "name": "Zagreb",
+      "title": "Zagreb Croatia",
+      "text": "Are you looking for Cheap car and van hire in Zagreb City Centre? Then Avaxrent is exactly what you are looking for. Receive the best customer service for a great price.",
+      "image": "zagreb",
+      "width": 4,
+      "path": "/en/locations/zagreb-center"
+    }
+  ]
+}

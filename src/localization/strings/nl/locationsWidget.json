@@ -1,0 +1,47 @@
+{
+  "title": "Auto huren in Kroatië",
+  "subtitle": "U bent bij Avax op het juiste adres als u zoek bent naar de beste prijs voor een huurauto beurt in Kroatië",
+  "items": [
+    {
+      "name": "Dubrovnik",
+      "title": "Dubrovnik Kroatië",
+      "text": "Auto huren Dubrovnik Kroatië - Goedkoop en online bij Avax autoverhuur!",
+      "image": "dubrovnik",
+      "width": 4,
+      "path": "/nl/locations/dubrovnik-downtown"
+    },
+    {
+      "name": "Zadar",
+      "title": "Zadar Kroatië",
+      "text": "Auto huren Zadar Kroatië - Goedkoop en online bij Avax autoverhuur!",
+      "image": "zadar",
+      "width": 4,
+      "path": "/nl/locations/zadar-center"
+    },
+    {
+      "name": "Sibenik",
+      "title": "Sibenik Kroatië",
+      "text": "Auto huren Sibenik Kroatië - Goedkoop en online bij Avax autoverhuur!",
+      "image": "sibenik",
+      "width": 4,
+      "path": "/nl/locations/sibenik-center"
+    },
+    {
+      "name": "Split",
+      "title": "Split Kroatië",
+      "text": "Auto huren Split Kroatië - Goedkoop en online bij Avax autoverhuur!",
+      "image": "split",
+      "width": 8,
+      "open": true,
+      "path": "/nl/locations/split-center"
+    },
+    {
+      "name": "Zagreb",
+      "title": "Zagreb Kroatië",
+      "text": "Auto huren Zagreb Kroatië - Goedkoop en online bij Avax autoverhuur!",
+      "image": "zagreb",
+      "width": 4,
+      "path": "/nl/locations/zagreb-center"
+    }
+  ]
+}

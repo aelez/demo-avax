@@ -1,0 +1,116 @@
+@import '../../theme/breakpoints.scss';
+@import '../../theme/colors.scss';
+@import '../../theme/snippets.scss';
+
+.footer {
+  width: 100%;
+  background: $bg-dark;
+}
+
+.content {
+  display: flex;
+  flex-flow: column nowrap;
+
+  padding: 1.875rem 4rem 3.125rem;
+  margin: auto;
+  max-width: 100rem; // 75rem by design, but seems to narrow
+
+  justify-content: space-around;
+  color: $text-light;
+
+  @media screen and (min-width: $smallDesktop) {
+    flex-flow: row;
+    padding: 4.375rem 6rem 3.125rem;
+  }
+}
+
+.logo {
+  width: 12rem;
+  margin: auto;
+  justify-self: center;
+
+  @media screen and (min-width: $smallDesktop) {
+    margin: 0 0 2.1rem 0;
+  }
+}
+
+.logoSection {
+  display: flex;
+  flex-flow: column;
+  margin-top: 2rem;
+  align-items: center;
+}
+
+.icon {
+  fill: $text-light;
+  font-size: 1.625rem;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.contactIcons {
+  width: 17rem;
+  margin: 0 auto 3.125rem;
+
+  @media screen and (min-width: $smallDesktop) {
+    display: none;
+  }
+}
+
+.sectionIcons {
+  display: none;
+
+  @media screen and (min-width: $smallDesktop) {
+    display: block;
+  }
+}
+
+.section {
+  margin-bottom: 1.875rem;
+  line-height: 2em;
+}
+
+.title {
+  color: $text-white;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.link {
+  display: block;
+  color: $text-light;
+
+  &:hover {
+    @extend %link-hover;
+  }
+}
+
+.bottom {
+  display: flex;
+  flex-flow: column nowrap;
+
+  justify-content: center;
+  align-items: center;
+
+  background: $bg-darker;
+  color: $text-light;
+
+  text-align: center;
+  font-size: 0.5625rem;
+}
+
+.bottomContent {
+  padding: 1.875rem 5rem 0;
+  max-width: 60rem;
+}
+
+.copyright {
+  padding: 1rem 5rem 1.875rem;
+  max-width: 40rem;
+  font-weight: bold;
+}

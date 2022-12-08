@@ -1,0 +1,31 @@
+{
+  "address": "Adresse",
+  "phone": "Téléphone",
+  "email": "Email",
+  "openingHours": "Heures d'ouverture",
+  "title": "Location de voiture à",
+  "subtitle": "Réservez votre location de voiture",
+  "faqTitle": "Foire aux questions",
+  "faq" : [
+    {
+      "question" : "Ai-je besoin d'une carte de crédit pour louer une voiture ?",
+      "answer" : "Non, il n'est pas nécessaire d'avoir une carte de crédit si vous décidez de payer le prix de la location de voiture à votre arrivée. Nous autorisons la location d'une voiture sans carte de crédit dans certaines circonstances particulières pour les petits groupes de voitures (Mini, Economy et Intermediate), en fonction du lieu de prise en charge/retour et de la période de location. Veuillez noter que si vous ne possédez pas de carte de crédit, vous devrez choisir une assurance PREMIUM + 40 Eur sans frais de carte de crédit. **Aucun frais de carte de crédit** ne peut être sélectionné à l'étape 4 du processus de réservation."
+    },
+    {
+      "question" : "Que faire si je dois annuler ma réservation ?",
+      "answer" : "Veuillez nous informer dès que possible au cas où vous souhaiteriez annuler ou modifier la réservation. Modifiez ou annulez votre réservation actuelle à tout moment avant la location. Il n'y a pas de frais pour la re-réservation et l'annulation. Envoyez-nous un courriel à l'adresse suivante : hi@support.avaxrent.com. Notez que vous souhaitez annuler votre réservation et que nous vous enverrons une notification d'annulation par courriel dès que nous aurons reçu votre demande."
+    },
+    {
+      "question" : "Puis-je conduire une voiture en dehors de la Croatie ? ",
+      "answer" : "Les locations transfrontalières sont autorisées sans frais supplémentaires dans les pays suivants : TOUS LES PAYS DE L'UE, la Bosnie, la Serbie et le Monténégro. Pour la Macédoine, l'Albanie et le Kosovo, des frais s'appliquent, 80 euros pour la période de location, l'option peut être choisie dans les options supplémentaires, étape 4 du processus de réservation."
+    },
+    {
+      "question" : "Puis-je être remboursé si je rends ma voiture plus tôt ?",
+      "answer" : "Malheureusement, nous ne pouvons pas vous rembourser pour une partie de votre location que vous n'utilisez pas."
+    },
+    {
+      "question" : "Quel âge dois-je avoir pour louer une voiture auprès de votre société de location de voitures ?",
+      "answer" : "Le conducteur autorisé doit avoir 22 ans ( Si le client est dans la tranche d'âge 18 -21 ans, des frais de jeune conducteur de 10 € par jour avec un maximum de 87,50 € par location seront appliqués + une assurance PREMIUM est obligatoire)."
+    }
+  ]
+}

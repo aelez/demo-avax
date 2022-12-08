@@ -1,0 +1,56 @@
+@import '../../../theme/spacing.scss';
+@import '../../../theme/colors.scss';
+
+.slide {
+  &:not(:last-child) {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  + .slide {
+    border-top: none;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+}
+
+.header {
+  border-bottom: none;
+  position: relative;
+  perspective: 500px;
+
+  &:after {
+    content: '';
+    position: absolute;
+    width: 1rem;
+    height: 100%;
+    right: $spc-l;
+    top:0;
+    bottom: 0;
+    background-image: url(../../../theme/icons/chevron-down.svg);
+    background-size: 1rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: transform ease-in-out 400ms;
+    perspective: 500;
+    transform: translate3d(0,0,0);
+  }
+}
+
+.expandedHeader {
+  &:after {
+    transform: rotateX(180deg);
+  }
+}
+
+.body {
+  padding: $spc-s $spc-m;
+}
+
+.headerLink {
+  color: $blackText;
+}
+
+.header {
+  background: white;
+}

@@ -1,0 +1,48 @@
+{
+  "pageTitle": "Servicio de traslado ",
+  "pageSubTitle": "Mejor servicio de traslados en Croacia",
+  "description": "Avax Airport Transport se especializa en proporcionar transporte urgente (alquiler privado), servicios para y desde todos los aeropuertos de Croacia, puertos de crucero, estaciones de tren, hacia y desde cualquier lugar de Croacia.",
+  "keywords": "Servicio de traslados Sistema, Servicio de traslados Alquiler de coches croatia, Servicio de traslados Sistema avax, Servicio de traslados avax. avax rent Servicio de traslados",
+  "intro":
+    "Avax Airport Transport se especializa en proporcionar transporte urgente (alquiler privado), servicios para y desde todos los aeropuertos de Croacia, puertos de crucero, estaciones de tren, hacia y desde cualquier lugar de Croacia. Nuestros precios son fijos y un 40% más baratos que los taxis medidos que usted contrata en los aeropuertos, puertos marítimos, estaciones o en las calles!",
+    "title": "Transferencias privadas de alquiler a y desde cualquier parte de Croacia. Operamos 24 horas, 7 días a la semana",
+  "sections": [
+    {
+      "title": "Ofrecemos servicio en:",
+      "sections": [
+        {
+          
+          "html": [
+            "<ul>",
+            "<li>Traslados al aeropuerto de Split Zadar</li>",
+            "<li>Traslados al aeropuerto de Split</li>",
+            "<li>Traslados al aeropuerto de Zagreb</li>",
+            "<li>Traslados al aeropuerto de Dubrovnik</li>",
+            "<li>Split Croacia Transferencias/li>",
+            "<li>Dubrovnik Croacia Transferencias</li>",
+            "<li>Sibenik Croacia Transferencias</li>",
+            "<li>Zadar Croacia Transferencias</li>",
+            "</ul>"
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Póngase en contacto con nosotros si necesita servicio de transferencia.",
+      "sections": [
+        {
+          "title": "Por favor, envíe la siguiente información a inquiry@avaxrent.com y nos pondremos en contacto para acordar detalles.",
+          "html": [
+            "<ul>",
+            "<li>Su nombre</li>",
+            "<li>Fecha en la que necesita transferencia y ubicación desde/hacia</li>",
+            "<li>Cuántas personas</li>",
+            "</ul>"
+          ]
+        }
+      ]
+    }
+    
+  ]
+}
+
