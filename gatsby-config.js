@@ -27,6 +27,19 @@ module.exports = {
       },
     },
     {
+      resolve: 'gatsby-source-mom-locations',
+      options: {
+        path: `${__dirname}/src/data/locationDescriptions`,
+      },
+    },
+    {
+      resolve: 'gatsby-source-locale',
+      options: {
+        pagesPath: `${__dirname}/src/localization/pages/`,
+        stringsPath: `${__dirname}/src/localization/strings/`,
+      },
+    },
+    {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "images",
@@ -71,6 +84,15 @@ module.exports = {
       },
     },
     {
+      resolve: 'gatsby-plugin-google-analytics',
+      options: {
+        trackingId: 'UA-51015107-1',
+        head: false,
+        anonymize: true,
+        respectDNT: true,
+      },
+    },
+    {
       resolve: "gatsby-plugin-seo",
       options: {
         siteName,
@@ -104,8 +126,11 @@ module.exports = {
     {
       resolve: "gatsby-plugin-netlify-cms",
     },
+    
     {
       resolve: `gatsby-plugin-slug`,
     },
+    'gatsby-plugin-no-sourcemaps',
+    'gatsby-plugin-sitemap',
   ],
 };
