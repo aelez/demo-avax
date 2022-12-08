@@ -1,6 +1,6 @@
 const siteName = "Sample Blog";
 const siteShortName = "Avax rent a car";
-const siteUrl = "https://geek.sg/";
+const siteUrl = "https://demo.avaxrent.com";
 const siteDescription = "Test Avax rent a car";
 const siteKeyword = "";
 const siteLogo = "logo.png";
@@ -24,19 +24,6 @@ module.exports = {
       options: {
         path: `${__dirname}/content`,
         name: "contents",
-      },
-    },
-    {
-      resolve: 'gatsby-source-mom-locations',
-      options: {
-        path: `${__dirname}/src/data/locationDescriptions`,
-      },
-    },
-    {
-      resolve: 'gatsby-source-locale',
-      options: {
-        pagesPath: `${__dirname}/src/localization/pages/`,
-        stringsPath: `${__dirname}/src/localization/strings/`,
       },
     },
     {
@@ -84,15 +71,6 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-plugin-google-analytics',
-      options: {
-        trackingId: 'UA-51015107-1',
-        head: false,
-        anonymize: true,
-        respectDNT: true,
-      },
-    },
-    {
       resolve: "gatsby-plugin-seo",
       options: {
         siteName,
@@ -126,11 +104,8 @@ module.exports = {
     {
       resolve: "gatsby-plugin-netlify-cms",
     },
-    
     {
       resolve: `gatsby-plugin-slug`,
     },
-    'gatsby-plugin-no-sourcemaps',
-    'gatsby-plugin-sitemap',
   ],
 };
